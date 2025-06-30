@@ -1,0 +1,211 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+
+
+
+/* Header */
+header {
+  background-color: #ffffff;
+  padding: 20px 0;
+  border-bottom: 1px solid #ddd;
+}
+header .container{
+  display: flex;
+  justify-content: space-between;
+}
+
+header h1 {
+  font-size: 28px;
+  color: #008000;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: #333;
+  margin-right: 20px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: #008000;
+}
+
+/* Hero */
+.hero {
+  height: 80vh;
+
+  text-align: center;
+  padding: 80px 0;
+  background: url(./images/fimnallllllllllllll.webp);
+  background-size: 100% 100%;
+}
+
+.hero h2 {
+  color: white;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  color: white;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+
+.hero .hero-content .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  transform: translateY(150px);
+}
+
+
+
+.btn {
+  background-color: #008000;
+  color: white;
+  padding: 12px 25px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background-color: #006600;
+}
+
+
+
+
+
+/* Moments */
+.section {
+  padding: 60px 0;
+}
+
+.section h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  color: #006600;
+}
+.moment-carousel {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.moment-card {
+  background: #ffffff;
+  min-width: 250px;
+  padding: 20px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  /* border-left: 4px solid ;*/
+} 
+
+.moment-card:hover{
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+   border-left: 5px solid #006600;
+}
+
+
+
+
+
+/* About Section */
+.about {
+  background-color: #f0f0f0;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.about h2 {
+  margin-bottom: 20px;
+  color: #008000;
+}
+
+
+
+
+
+/* Footer */
+footer {
+  background-color: #eaeaea;
+  text-align: center;
+  padding: 20px 0;
+  border-top: 1px solid #ccc;
+}
+
+footer p {
+  color: #555;
+}
+
+
+
+
+
+
+
+/* Live Scores Section */
+.scores {
+  background-color: #ffffff;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.scores h2 {
+  color: #008000;
+  margin-bottom: 30px;
+}
+
+.score-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.score-card {
+  border: 1px solid black;
+  cursor: pointer;
+  background-color: #f4f4f4;
+  padding: 20px 25px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  max-width: 300px;
+}
+
+.score-card h3 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.score-card p {
+  color: #555;
+}
